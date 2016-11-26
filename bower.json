@@ -15,6 +15,7 @@
     "tests"
   ],
   "dependencies": {
-    "sb-admin-2": "*"
+    "sb-admin-2": "*",
+    "bootstrap": "^3.3.7"
   }
 }
