@@ -1,0 +1,17 @@
+{
+  "name": "ci",
+  "authors": [
+    "day2-p1 <palagorn.na@hotmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
