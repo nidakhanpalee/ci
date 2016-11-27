@@ -17,9 +17,11 @@
                 <th>ชื่อหมวดหมู่</th>
                 <th>จัดการ</th>
             </tr>
+            <?php if($categories->num_rows() > 0){
+                foreach ($categories->result() as $category){?>
             <tr>
                 <td>1</td>
-                <td>กีฬา</td>
+                <td><?php echo $category->name ?> </td>
                 <td>
                     <a href="#" class="btn btn-xs btn-warning">
                        <i class="fa fa-edit">แก้ไข</i>
@@ -29,6 +31,11 @@
                     </a>
                 </td>
             </tr>
+            <?php }}else { ?>
+                <tr>
+                    <td colspan="3">== ไม่มีข้อมูล ==</td>
+                </tr>
+            <?php } ?>
         </table>
         </div>
     </div>
