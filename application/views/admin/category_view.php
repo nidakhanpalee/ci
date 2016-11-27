@@ -23,10 +23,10 @@
                 <td>1</td>
                 <td><?php echo $category->name ?> </td>
                 <td>
-                    <a href="#" class="btn btn-xs btn-warning">
+                    <a href="<?php echo base_url('admin/edit_category/'. $category->category_id)?>" class="btn btn-xs btn-warning">
                        <i class="fa fa-edit">แก้ไข</i>
                     </a>
-                    <a href="#" class="btn btn-xs btn-danger">
+                    <a href="<?php echo base_url('admin/delete_category/'. $category->category_id)?>" class="btn btn-xs btn-danger">
                     <i class="fa fa-edit">ลบ</i>
                     </a>
                 </td>
